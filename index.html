@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h2>Matching Game</h2>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+        	<span class="moves">0</span> Moves
+            <span class="timer">0 mins 0 secs</span>
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+        <div class="modal">
+            <div class="modal-content">
+                <h2>Congrats You Made it!!!</h2>
+                <a class="close" href="#">x</a>
+                <div class="congrats-message">
+                    Look at how well you did!!
+                </div>
+                <div class="info-message">
+                    <p>You made <span class="final-moves"></span> moves in <span class="total-time"></span></p>
+                    <p>Rating: <span class="starrating"></span></p>
+                </div>
+                <button class="play-again">Play again</button>
+            </div>
+        </div>
+        <ul class="deck">
+        </ul>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

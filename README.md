@@ -1,6 +1,6 @@
 # Memory-Card-Game
 
-Welcome to my memory card game. I used the starter code for [Udacity](https://github.com/udacity/fend-project-memory-game) students and came up with this master piece. Have fun with the interactive card game and let me know if there is any bugs. 
+Welcome to my memory card game. I used the starter code for [Udacity](https://github.com/udacity/fend-project-memory-game) students and came up with this master piece. Have fun with the interactive card game and let me know if there is any bugs within the HTML, CSS, and JavaScript.
 
 Cheers!
 
